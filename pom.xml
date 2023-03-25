@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.modq.gulimail</groupId>
-    <artifactId>gulimail-project</artifactId>
+    <artifactId>gulimail</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimail</name>
     <description>gulimail</description>
@@ -15,5 +15,8 @@
         <module>gulimai-ware</module>
         <module>gulimail-order</module>
         <module>gulimail-member</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimail-common</module>
     </modules>
 </project>
