@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: query_route
+          uri: https://youku.com/channel/webhome
+          predicates:
+          - Query=url,baidu
